@@ -7,7 +7,7 @@
 - Take existing file structure, create migrations and seeds
     - $knex migrate:make migration_name
     - $knex seed:make seed_name
-- Create a migration that has four text inputs (first name, last name, previouse occupation, and hometown) and an id.
+- Create a migration that has four text inputs (first name, last name, previous occupation, and hometown) and an id.
 - Create a seed file with your information as the first item in your seed, then slack that data object out to g90.
 - Run migrations and seeds
     - $knex migrate:latest
