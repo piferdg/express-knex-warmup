@@ -21,13 +21,10 @@ app.get('/:id', (request, response) => {
   })
 })
 
-app.use((req, res, next) => {
-  const err = new Error("Not Found");
-  err.status = 404;
-  next(err);
-})
+// app.use((error, request, response, next) => {
+//  console.error('ERROR', error)
+//  response.status(404).send()
+// })
 
 app.listen(port, () => {
 console.log(`Listening on Port ${port}`)})
-
-
