@@ -1,11 +1,12 @@
+const database = require('./database-connection')
+
 module.exports = {
 
-  function getCohorts() {
-    return g90_cohort
-  }
+  getCohorts() {
+    return database('students').select()
+  },
 
-  function gStudent(id) {
-    
-    
+  getId(id) {
+    return database('students').select().where('id', id)
   }
 }
