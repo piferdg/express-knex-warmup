@@ -2,7 +2,7 @@
   "name": "g90-server",
   "version": "1.0.0",
   "description": "A database of g90 glory",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "knex": "^0.15.2",
     "pg": "^7.4.3"

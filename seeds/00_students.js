@@ -20,7 +20,9 @@ exports.seed = function(knex, Promise) {
           {firstname: 'Michael', lastname: 'Coons', prevoccupation: 'Director of IT', hometown: 'Bloomington, IN'},
           {firstname: 'Danny', lastname: 'Pifer', prevoccupation: 'QA Tester', hometown: 'San Francisco'},
           {firstname: 'Ryan', lastname: 'McCrory', prevoccupation: 'U.S. Army', hometown: 'Denver, CO'},
-          {firstname: 'Matt', lastname: 'Huston', prevoccupation: 'Valet', hometown: 'Littleton, CO'}
+          {firstname: 'Matt', lastname: 'Huston', prevoccupation: 'Valet', hometown: 'Littleton, CO'},
+          {firstname: 'Ryan', lastname: 'Borgstrom', prevoccupation: 'Doctor', hometown: 'Morris, IL'},
+          {firstname: 'Tiffany', lastname: 'Ricks', prevoccupation: 'CNA', hometown: 'Scottsdale'}
         ]
       )
 })
