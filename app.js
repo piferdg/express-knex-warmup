@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const morgan = require('morgan')
 const queries = require('./queries')
-const port = parseInt(process.env.PORT || 3000)
+const port = parseInt(process.env.PORT || 9000)
 
 
 app.use(cors())
